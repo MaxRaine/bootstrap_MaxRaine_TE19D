@@ -1,48 +1,63 @@
-#container {
-    display: flex;
+#container { /*skapar en container */
+    display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
+    border: 50px solid white;
     
   }
 
-.button {
+.button { /* Ändrar buttons */
+    display: flex;
     flex: 0 32%;
     height: 100px;
-    margin-bottom: 4%; 
     border-radius: 30px;
     background-color: blueviolet;
     color: aqua;
-    border: black;
+    padding: 5px black;
+    justify-content: center;
   }
 
+
+
 #bigbox {
+    display: flex;
     border: 30px solid;
+    flex-direction: column;
     
     
 
 }
 
 #content {
+    display: flex;
     margin: 50px;
     height: auto;
     width: 648px;
     background-color: white;
-    border: 0px solid black;
-    border-left-width: 1px;
-    border-right-width: 1px;
+    border: 0px; 
     padding: 50px;
-    text-align: center;
+    justify-content: space-between;
     
 
 }
 
-#h1 {
-    text-align: center;
+
+.text{
+    display: flex;
+    padding: 2px black;
 
 }
 
 #item {
+    display: flex;
     background-origin: padding-box;
+    justify-content: space-between;
 
 
+
+}
+
+#chairs {
+    display: flex;
+    justify-content: space-between;
 }
